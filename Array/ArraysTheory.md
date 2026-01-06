@@ -1,16 +1,17 @@
 **ARRAYS**
 
 Static - Size of the array is known  
+
 ---Packed---
 -> This type of arrays which are stored in consecutive spaces in the memory.
-    [0][1][2][3][4][5][6][7]
+->  [0][1][2][3][4][5][6][7]
 -> Used in the RTL design (ALU, Databus, Registers)
 -> Size known at the Compile Time 
 -> They can be single dimension, multidimensional 
 
 ---Unpacked---
 -> This type of arrays which are stored in non consecutive spaces in memory.
-    [][][][][][0]
+->  [][][][][][0]
     [][][][][][1]
     [][][][][][2]
     [][][][][][3]
@@ -21,7 +22,7 @@ Dynamic - Size unknown
 
 1. Dynamic
    -> This is an unpacked array whose size can be changed at the Run Time.
-       size of the dynamic array can be declared as new()
+   -> Size of the dynamic array can be declared as new()
    -> Not Synthesizable so used in testbench ONLY. (Transaction Level Modelling)
    
 2. Associative
