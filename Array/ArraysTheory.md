@@ -1,10 +1,10 @@
 **ARRAYS**
 
-Static - Size of the array is known  
+Static - Size of the array is known \ 
 
----Packed---
--> This type of arrays which are stored in consecutive spaces in the memory.
-->  [0][1][2][3][4][5][6][7]
+---Packed--- \
+-> This type of arrays which are stored in consecutive spaces in the memory. \
+->  [0][1][2][3][4][5][6][7] \
 -> Used in the RTL design (ALU, Databus, Registers)
 -> Size known at the Compile Time 
 -> They can be single dimension, multidimensional 
